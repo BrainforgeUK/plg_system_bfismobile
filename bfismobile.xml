@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* @package   Plugin for detecting when site is visited by a mobile.
+* @version   0.0.1
+* @author    http://www.brainforge.co.uk
+* @copyright Copyright (C) 2013 Jonathan Brain. All rights reserved.
+* @license	 GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+-->
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+  <name>Brainforge, ismobile</name>
+  <creationDate>02 August 2013</creationDate>
+  <author>Jonathan Brain</author>
+  <authorEmail>brainforge@btinternet.com</authorEmail>
+  <authorUrl>http://www.brainforge.co.uk</authorUrl>
+  <copyright>Copyright 2013 Jonathan Brain. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <version>0.0.1</version>
+  <description>Plugin for detecting when site is visited by a mobile.&lt;br /&gt;
+  Defines constant IS_MOBILE which is set to true, otherwise it is undefined.&lt;br /&gt;
+  Make sure it runs before any other plugins which require this functionality.&lt;br /&gt; 
+  </description>
+
+	<files>
+		<filename plugin="bfismobile">bfismobile.php</filename>
+    <filename>bfismobile.xml</filename>
+	</files>
+
+  <config>
+    <fields name="params">
+    <fieldset name="basic">
+	    <field name="mobile_site_uri" type="text" 
+						 label="Mobile Site URI"
+						 description="URI for mobile version of site (if applicable). Will automatically redirect if ncessary." />
+ 		</fieldset>
+    </fields>
+  </config>
+
+  <config>
+    <fields name="params">
+    <fieldset name="basic">
+	    <field name="additional-mobiles" type="text" 
+						 label="Additional Use Agents"
+						 description="Space separated list of text to identify additional mobile user agents not in the default list." />
+ 		</fieldset>
+    </fields>
+  </config>
+
+</extension>
