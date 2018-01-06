@@ -3,7 +3,7 @@
 * @package   Plugin for detecting when site is visited by a mobile.
 * @version   0.0.1
 * @author    http://www.brainforge.co.uk
-* @copyright Copyright (C) 2013 Jonathan Brain. All rights reserved.
+* @copyright Copyright (C) 2013-2018 Jonathan Brain. All rights reserved.
 * @license	 GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 -->
 <extension version="2.5" type="plugin" group="system" method="upgrade">
@@ -12,9 +12,9 @@
   <author>Jonathan Brain</author>
   <authorEmail>brainforge@btinternet.com</authorEmail>
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
-  <copyright>Copyright 2013 Jonathan Brain. All rights reserved.</copyright>
+  <copyright>Copyright 2013-2018 Jonathan Brain. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>0.0.1</version>
+  <version>4.0.0</version>
   <description>Plugin for detecting when site is visited by a mobile.&lt;br /&gt;
   Defines constant IS_MOBILE which is set to true, otherwise it is undefined.&lt;br /&gt;
   Make sure it runs before any other plugins which require this functionality.&lt;br /&gt; 
@@ -45,4 +45,8 @@
     </fields>
   </config>
 
+
+  <updateservers>
+    <server type="extension" priority="1" name="Brainforge, ismobile">https://brainforge.co.uk/media/com_bfupdater/plg_bfismobile.xml</server>
+  </updateservers>
 </extension>
