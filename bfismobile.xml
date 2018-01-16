@@ -7,7 +7,7 @@
 * @license	 GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 -->
 <extension version="2.5" type="plugin" group="system" method="upgrade">
-  <name>Brainforge, ismobile</name>
+  <name>System - ismobile by BrainforgeUK</name>
   <creationDate>02 August 2013</creationDate>
   <author>Jonathan Brain</author>
   <authorEmail>brainforge@btinternet.com</authorEmail>
@@ -47,6 +47,6 @@
 
 
   <updateservers>
-    <server type="extension" priority="1" name="Brainforge, ismobile">https://brainforge.co.uk/media/com_bfupdater/plg_bfismobile.xml</server>
+    <server type="extension" priority="1" name="System - ismobile by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_bfismobile.xml</server>
   </updateservers>
 </extension>
