@@ -14,7 +14,7 @@
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
   <copyright>Copyright 2013-2018 Jonathan Brain. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>4.0.0</version>
+  <version>4.0.1</version>
   <description>Plugin for detecting when site is visited by a mobile.&lt;br /&gt;
   Defines constant IS_MOBILE which is set to true, otherwise it is undefined.&lt;br /&gt;
   Make sure it runs before any other plugins which require this functionality.&lt;br /&gt; 
@@ -47,6 +47,8 @@
 
 
   <updateservers>
-    <server type="extension" priority="1" name="System - ismobile by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_system_bfismobile.xml</server>
+    <server type="extension" priority="1" name="System - ismobile by BrainforgeUK">
+			https://brainforge.co.uk/media/com_bfupdater/plg_system_bfismobile.xml
+		</server>
   </updateservers>
 </extension>
