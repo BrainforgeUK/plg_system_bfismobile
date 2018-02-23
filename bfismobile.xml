@@ -45,10 +45,9 @@
     </fields>
   </config>
 
-
   <updateservers>
     <server type="extension" priority="1" name="System - ismobile by BrainforgeUK">
-			https://brainforge.co.uk/media/com_bfupdater/plg_system_bfismobile.xml
+			https://brainforge.co.uk/component/bfupdater?element=plg_system_bfismobile.xml
 		</server>
   </updateservers>
 </extension>
